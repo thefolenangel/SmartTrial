@@ -1,0 +1,30 @@
+<resources>
+    <!-- Theme customization for Android API 14++ -->
+    <!-- I took the list of attributes that I can override from here:
+    http://developer.android.com/reference/android/R.styleable.html#Theme -->
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Changing all colors of the widges, acrous the whole app
+
+         Making it look more like : old-paper-style-->
+        <item name="android:editTextColor">#ffb62a23</item>
+        <item name="android:textColorPrimary">#ffb62a23</item>
+        <item name="android:textColorSecondary">#ffb62a23</item>
+        <item name="android:textColorTertiary">#ffb62a23</item>
+        <item name="android:textColorPrimaryInverse">#ffb62a23</item>
+        <item name="android:textColorSecondaryInverse">#ffb62a23</item>
+        <item name="android:textColorTertiaryInverse">#ffb62a23</item>
+        <!-- Background change-->
+        <item name="android:windowBackground">@color/custom_background</item>
+
+    </style>
+    <style name="ButtonStyle">
+        <item name="android:background">#9999FF</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+</resources>

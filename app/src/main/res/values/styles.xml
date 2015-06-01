@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Customizations that will go for API 10 and below-->
+
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+         <!-- Customizations that won't be specific to any API go here -->
+    </style>
+
+</resources>
